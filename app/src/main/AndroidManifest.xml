@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.windows10.quicklauncher">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".Avengers" />
+        <activity android:name=".X_men" />
+        <activity android:name=".inhumans" />
+        <activity android:name=".defenders" />
+        <activity android:name=".Galaxy" />
+        <activity android:name=".spider" />
+        <activity android:name=".dead" />
+        <activity android:name=".iron_man" />
+        <activity android:name=".captain" />
+        <activity android:name=".thor" />
+        <activity android:name=".Hawkeye" />
+        <activity android:name=".Hulk" />
+        <activity android:name=".black" />
+        <activity android:name=".falcon" />
+        <activity android:name=".Wolverine" />
+        <activity android:name=".X" />
+        <activity android:name=".cycle" />
+        <activity android:name=".storm" />
+        <activity android:name=".gray" />
+        <activity android:name=".magneto" />
+        <activity android:name=".mys" />
+        <activity android:name=".Medusa" />
+        <activity android:name=".bolt" />
+        <activity android:name=".Maximus" />
+        <activity android:name=".Karnak" />
+        <activity android:name=".jaw" />
+        <activity android:name=".daredevil" />
+        <activity android:name=".jessica" />
+        <activity android:name=".Luke" />
+        <activity android:name=".Iron" />
+        <activity android:name=".Punisher" />
+        <activity android:name=".lord" />
+        <activity android:name=".Rocket" />
+        <activity android:name=".groot" />
+        <activity android:name=".drax" />
+        <activity android:name=".Gamora"></activity>
+    </application>
+
+</manifest>
